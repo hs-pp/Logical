@@ -1,10 +1,10 @@
 using UnityEditor;
 
-namespace Logical99.Editor
+namespace Logical.Editor
 {
     public class LogicalWindow : EditorWindow
     {
-        [MenuItem("Window/Logical99")]
+        [MenuItem("Window/Logical")]
         public static void OpenWindow()
         {
             CreateWindow<LogicalWindow>().Show();

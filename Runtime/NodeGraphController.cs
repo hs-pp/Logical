@@ -2,7 +2,7 @@ using System;
 using UnityEngine;
 using UnityEngine.Events;
 
-namespace Logical99.Runtime
+namespace Logical.Runtime
 {
     /// <summary>
     /// A basic monobehaviour that runs a graph at runtime.

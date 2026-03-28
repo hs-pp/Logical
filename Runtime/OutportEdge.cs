@@ -1,4 +1,4 @@
-namespace Logical99.Runtime
+namespace Logical.Runtime
 {
     /// <summary>
     /// This class represents an outgoing port on a node.

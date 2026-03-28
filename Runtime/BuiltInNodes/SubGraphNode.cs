@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-namespace Logical99.Runtime
+namespace Logical.Runtime
 {
     [Serializable]
     public sealed class SubGraphNode : ANode

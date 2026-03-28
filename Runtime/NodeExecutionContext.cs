@@ -1,6 +1,6 @@
 using System;
 
-namespace Logical99.Runtime
+namespace Logical.Runtime
 {
     /// <summary>
     /// Provides runtime-only access to graph execution services and mutable per-node state.

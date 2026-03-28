@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Logical99.Runtime
+namespace Logical.Runtime
 {
     /// <summary>
     /// The class that actually runs a graph.

@@ -1,4 +1,4 @@
-namespace Logical99.Runtime
+namespace Logical.Runtime
 {
     /// <summary>
     /// Base type for mutable per-node execution data created fresh for each graph run.
