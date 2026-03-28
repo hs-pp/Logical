@@ -13,13 +13,20 @@ namespace Logical.Editor
         
         public void LoadNodeGraph(ANodeGraph nodeGraph)
         {
-            if (m_currNodeGraph != null)
-            {
-                // UNLOAD PREVIOUS NODE GRAPH!!
-            }
+            ClearGraphView();
             
             m_currNodeGraph = new NodeGraphHandler(nodeGraph);
             // DO SOME LOADING OF DATA!!
+        }
+
+        public void ClearGraphView()
+        {
+            if (m_currNodeGraph == null)
+            {
+                return;
+            }
+            
+            
         }
     }
 }
